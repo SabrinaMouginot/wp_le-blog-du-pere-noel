@@ -22,13 +22,13 @@
 
 // ** Réglages MySQL - Votre hébergeur doit vous fournir ces informations. ** //
 /** Nom de la base de données de WordPress. */
-define( 'DB_NAME', 'leblogduperenoel' );
+define( 'DB_NAME', 'votre_nom_de_bdd' );
 
 /** Utilisateur de la base de données MySQL. */
-define( 'DB_USER', 'Noel' );
+define( 'DB_USER', 'votre_utilisateur_de_bdd' );
 
 /** Mot de passe de la base de données MySQL. */
-define( 'DB_PASSWORD', 'LeBlogDuPereNoel' );
+define( 'DB_PASSWORD', 'votre_mdp_de_bdd' );
 
 /** Adresse de l’hébergement MySQL. */
 define( 'DB_HOST', 'localhost' );
@@ -86,8 +86,7 @@ $table_prefix = 'wp_';
  *
  * @link https://fr.wordpress.org/support/article/debugging-in-wordpress/
  */
-define( 'WP_DEBUG', true );
-// define( 'WP_DEBUG', false );
+define( 'WP_DEBUG', false );
 
 /* C’est tout, ne touchez pas à ce qui suit ! Bonne publication. */
 
