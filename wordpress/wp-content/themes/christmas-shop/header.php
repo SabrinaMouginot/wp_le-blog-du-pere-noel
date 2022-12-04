@@ -15,6 +15,7 @@
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="http://localhost/LeBlogDuPereNoel/wordpress/wp-content/uploads/2022/12/pere-noel.png" type="image/x-icon"/> <link rel="shortcut icon" href="http://localhost/LeBlogDuPereNoel/wordpress/wp-content/uploads/2022/12/pere-noel.png" type="image/x-icon"/>
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 
 	<?php wp_head(); ?>

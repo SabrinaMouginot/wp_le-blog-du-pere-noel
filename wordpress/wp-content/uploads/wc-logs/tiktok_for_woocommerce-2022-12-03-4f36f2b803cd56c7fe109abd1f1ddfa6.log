@@ -1,0 +1,93 @@
+2022-12-03T20:11:57+00:00 DEBUG POST: https://ads.tiktok.com/marketing_api/api/developer/app/create_auto_approve/
+
+{"business_platform":"PROD","smb_id":"tt4b_woocommerce_638bad8d65529httplocalhostLeBlogDuPereNoelwordpresswp-admin","smb_name":"PROD","redirect_url":"http:\/\/localhost\/LeBlogDuPereNoel\/wordpress\/wp-admin\/"}
+
+2022-12-03T20:12:02+00:00 ERROR Tt4b_Mapi_Class::create_open_source_app: Response: 
+
+http_request_failed: cURL error 28: Operation timed out after 5005 milliseconds with 0 bytes received
+
+2022-12-03T20:12:02+00:00 DEBUG Tt4b_Mapi_Class::create_open_source_app: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json
+X-Tt-Logid: 202212032012020102450041140B112C6A,202212032012020102450041140B112C6A
+x-tt-trace-host: 01f52067813d90fcdd2203665731b893c2c898adb1a0b25af61fe681fa9653f6bca2ab30a7b0c63e6eec508bc87a9cef97dea62720236ae4e9c5a00fa7ec3797f4e62e3f7bd8be350c88bed07e6047fce0ae1e41e31c1c6d1786a97055f84e8720
+Content-Encoding: gzip
+Content-Length: 227
+X-Origin-Response-Time: 109,23.40.40.165
+X-Akamai-Request-ID: b96472e8.1447a1b8
+Date: Sat, 03 Dec 2022 20:12:03 GMT
+X-Cache: TCP_MISS from a96-17-104-45.deploy.akamaitechnologies.com (AkamaiGHost/10.10.2-45048955) (-)
+Connection: close
+Vary: Accept-Encoding
+X-Cache-Remote: TCP_MISS from a23-40-40-165.deploy.akamaitechnologies.com (AkamaiGHost/10.10.2-45048955) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=161, origin; dur=109
+Server-Timing: inner; dur=106
+X-Parent-Response-Time: 265,96.17.104.45
+
+{"code":0,"msg":"ok","data":{"external_data_key":"bfd2d6c3-5f51-451f-bb7d-f75c8eb8f2b2","redirect_uri":"http:\/\/localhost\/LeBlogDuPereNoel\/wordpress\/wp-admin\/","app_id":"7173017656071553026","app_secret":"0306f1ff57710112198a0ae54624ec287f02e59c"}}
+
+2022-12-03T21:01:27+00:00 DEBUG Tt4b_Pixel_Class::inject_start_checkout: hit injectStartCheckout
+2022-12-03T21:01:27+00:00 DEBUG Tt4b_Pixel_Class::inject_start_checkout: Missing option "access_token"
+2022-12-03T21:04:19+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.2/tbp/business_profile/disconnect/
+
+{"external_business_id":"tt4b_woocommerce_638bad8d65529","business_platform":"WOO_COMMERCE","is_setup_page":0,"app_id":"7173017656071553026"}
+
+2022-12-03T21:04:19+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json; charset=utf-8
+Content-Length: 103
+X-Api-Deprecation-Info: API for Business Version 1.3 is now live. To avoid disruption to your business, we recommend you migrate all calls to v1.3 as soon as possible. Please visit our migration guide for more details: https://ads.tiktok.com/marketing_api/docs?id=1740029169927169
+X-Domain-Change-Info: We have moved to the new domain business-api.tiktok.com for API services after the Platform Upgrade on 09/30/2021. Please update all of your requests with the new domain if you haven't done so already. For more information, please visit https://ads.tiktok.com/marketing_api/docs?rid=esb88xalm6m&id=1709207085043713
+X-Tt-Logid: 202212032104190102452421690010EFD5
+x-tt-trace-host: 01f52067813d90fcdd2203665731b893c2dfb1483bc114194a25e1ffd8b7b516826888767087df937e4ae0884275d088a4c650ad0ac93269ce8dcb1aa4ee662b5f882cbf2bbc31d9048693c796612f279647cff26f3812b0e47fc911be39fb631e
+X-Origin-Response-Time: 8,104.88.70.196
+X-Akamai-Request-ID: 71038f1a.1482826f
+Expires: Sat, 03 Dec 2022 21:04:19 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Sat, 03 Dec 2022 21:04:19 GMT
+X-Cache: TCP_MISS from a96-17-104-45.deploy.akamaitechnologies.com (AkamaiGHost/10.10.2-45048955) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a104-88-70-196.deploy.akamaitechnologies.com (AkamaiGHost/10.10.2-45048955) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=157, origin; dur=8
+Server-Timing: inner; dur=4
+X-Parent-Response-Time: 164,96.17.104.45
+
+{"code":40104,"message":"The access_token is empty.","request_id":"202212032104190102452421690010EFD5"}
+
+2022-12-03T21:04:19+00:00 DEBUG POST: https://business-api.tiktok.com/tbp/v2.0/shop/connection/disconnect?external_data=
+
+--- EMPTY STRING ---
+
+2022-12-03T21:04:20+00:00 DEBUG Tt4b_Mapi_Class::tts_shop_disconnect: Response: 
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: application/json; charset=utf-8
+Content-Length: 95
+X-Api-Deprecation-Info: API for Business Version 1.3 is now live. To avoid disruption to your business, we recommend you migrate all calls to v1.3 as soon as possible. Please visit our migration guide for more details: https://ads.tiktok.com/marketing_api/docs?id=1740029169927169
+X-Domain-Change-Info: We have moved to the new domain business-api.tiktok.com for API services after the Platform Upgrade on 09/30/2021. Please update all of your requests with the new domain if you haven't done so already. For more information, please visit https://ads.tiktok.com/marketing_api/docs?rid=esb88xalm6m&id=1709207085043713
+X-Tt-Logid: 202212032104200102452441441C10452C
+x-tt-trace-host: 01f52067813d90fcdd2203665731b893c2c898adb1a0b25af61fe681fa9653f6bc4baa072eee681015250ca01027b7012872bab341bcb5b14db5f23f93ece819052a909b31b59f4d44bc06466b9f937c0bfed4326dfb8e90b65d7bc2b0fff08759
+X-Origin-Response-Time: 13,23.200.218.94
+X-Akamai-Request-ID: a21c1a44.148283b8
+Expires: Sat, 03 Dec 2022 21:04:20 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Sat, 03 Dec 2022 21:04:20 GMT
+X-Cache: TCP_MISS from a96-17-104-45.deploy.akamaitechnologies.com (AkamaiGHost/10.10.2-45048955) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-200-218-94.deploy.akamaitechnologies.com (AkamaiGHost/10.10.2-45048955) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=166, origin; dur=13
+Server-Timing: inner; dur=11
+X-Parent-Response-Time: 177,96.17.104.45
+
+{"code":40001,"message":"Permission denied.","request_id":"202212032104200102452441441C10452C"}
+
